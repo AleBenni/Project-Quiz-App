@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz App </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="start-screen" hidden>
+        <div class="header">
+            <h1>Quiz</h1>
+        </div>
+        <div class="sub-header">
+            <h3>Highscore: 10</h3>
+        </div>
+        <div class="body">
+            <button class="start-button">Start</button>
+        </div>
+    </section>
+
+    <section class="quiz-screen" hidden>
+        <div class="header">
+            <h1>Quiz</h1>
+            <div class="score">
+                <p class="question-number">Question <span class="scoreTotal"> </span> out of 10</p>
+                <p class="timer"></p>
+            </div>
+        </div>
+        <div class="sub-header">
+            <h3></h3>
+        </div>
+        <div class="body">
+            <div class="question-one question">Atlantic Ocean</div>
+            <div class="question-two question">Indian Ocean</div>
+            <div class="question-three question">Pacific Ocean</div>
+            <div class="question-four question">Arctic Ocean</div>
+        </div>
+    </section>
+
+    <section class="end-screen" hidden>
+        <div class="header">
+            <h1>Quiz</h1>
+        </div>
+        <div class="body">
+            <h3>You got X out of 10</h3>
+            <button class="retry-button">Retry</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
