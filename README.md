@@ -39,4 +39,4 @@ Includes timed questions, instant answer feedback, and a final score summary.
 
 📂 Live Demo:
 
-Link to Netlify or GitHub Pages (e.g. https://yourusername.github.io/quiz-app)
+https://alebenni.github.io/Project-Quiz-App/
